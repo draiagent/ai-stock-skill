@@ -1,3 +1,5 @@
-# 這兩個檔案的 SHA-256 記錄在 SHA256SUMS.json（原件為 CRLF），不做換行轉換以保持位元組一致
+# SHA256SUMS.json 以位元組雜湊驗證檔案：統一以 LF 儲存與檢出，避免 Windows 換行轉換造成驗證失敗
+* text=auto eol=lf
+# 下面兩個檔案的原件為 CRLF，雜湊記錄的是 CRLF 版本，維持原樣（需放在 * 規則之後才會生效）
 requirements.lock.txt -text
 evidence/original-simulated-tests.txt -text
