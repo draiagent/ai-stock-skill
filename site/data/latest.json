@@ -1,0 +1,606 @@
+{
+  "schema": "ai-stock-site/1",
+  "mode": "MOCK",
+  "skill": "ai-stock-skill",
+  "skill_version": "0.1.0",
+  "as_of": "2026-10-02",
+  "retrieved_at": "2026-10-02T15:00:00+08:00",
+  "market_state": "模擬資料：亂數合成，僅供版面與流程展示",
+  "stocks": [
+    {
+      "code": "2330",
+      "name": "台積電",
+      "daily": {
+        "status": "OK",
+        "date": "2026-10-02",
+        "close": 495.0,
+        "change": 0.0,
+        "change_pct": 0.0,
+        "previous_close": 495.0,
+        "amplitude_pct": 0.8080808080808081,
+        "ma5": 485.7,
+        "ma20": 464.75,
+        "volume_shares": 45719000.0,
+        "volume_ratio": 1.9097326649958228,
+        "freshness": "來源可取得的最近交易日；不以工作日推算休市",
+        "observations": 40,
+        "window_start": "2026-09-07"
+      },
+      "ma20_position": "above",
+      "relative": {
+        "status": "OK",
+        "date": "2026-10-02",
+        "benchmark": {
+          "close": 19835.41,
+          "change": -27.82,
+          "change_pct": -0.14005778516384293,
+          "source": "模擬資料（非 TWSE 回應）"
+        },
+        "relative_pp": 0.14005778516384293,
+        "inference": "強於同日大盤",
+        "basis": "同日完整日收盤；價量描述不預測未來漲跌"
+      },
+      "issues": [],
+      "sources": [],
+      "series": [
+        {
+          "date": "2026-09-07",
+          "close": 437.5
+        },
+        {
+          "date": "2026-09-08",
+          "close": 444.0
+        },
+        {
+          "date": "2026-09-09",
+          "close": 443.5
+        },
+        {
+          "date": "2026-09-10",
+          "close": 443.5
+        },
+        {
+          "date": "2026-09-11",
+          "close": 453.5
+        },
+        {
+          "date": "2026-09-14",
+          "close": 460.5
+        },
+        {
+          "date": "2026-09-15",
+          "close": 452.0
+        },
+        {
+          "date": "2026-09-16",
+          "close": 452.0
+        },
+        {
+          "date": "2026-09-17",
+          "close": 461.5
+        },
+        {
+          "date": "2026-09-18",
+          "close": 449.5
+        },
+        {
+          "date": "2026-09-21",
+          "close": 463.0
+        },
+        {
+          "date": "2026-09-22",
+          "close": 472.5
+        },
+        {
+          "date": "2026-09-23",
+          "close": 468.5
+        },
+        {
+          "date": "2026-09-24",
+          "close": 478.0
+        },
+        {
+          "date": "2026-09-25",
+          "close": 487.0
+        },
+        {
+          "date": "2026-09-28",
+          "close": 475.5
+        },
+        {
+          "date": "2026-09-29",
+          "close": 478.5
+        },
+        {
+          "date": "2026-09-30",
+          "close": 484.5
+        },
+        {
+          "date": "2026-10-01",
+          "close": 495.0
+        },
+        {
+          "date": "2026-10-02",
+          "close": 495.0
+        }
+      ]
+    },
+    {
+      "code": "2454",
+      "name": "聯發科",
+      "daily": {
+        "status": "OK",
+        "date": "2026-10-02",
+        "close": 270.0,
+        "change": 2.5,
+        "change_pct": 0.9345794392523363,
+        "previous_close": 267.5,
+        "amplitude_pct": 1.4953271028037385,
+        "ma5": 267.0,
+        "ma20": 273.4,
+        "volume_shares": 24786000.0,
+        "volume_ratio": 0.48982253665863007,
+        "freshness": "來源可取得的最近交易日；不以工作日推算休市",
+        "observations": 40,
+        "window_start": "2026-09-07"
+      },
+      "ma20_position": "below_or_equal",
+      "relative": {
+        "status": "OK",
+        "date": "2026-10-02",
+        "benchmark": {
+          "close": 19835.41,
+          "change": -27.82,
+          "change_pct": -0.14005778516384293,
+          "source": "模擬資料（非 TWSE 回應）"
+        },
+        "relative_pp": 1.0746372244161793,
+        "inference": "強於同日大盤",
+        "basis": "同日完整日收盤；價量描述不預測未來漲跌"
+      },
+      "issues": [],
+      "sources": [],
+      "series": [
+        {
+          "date": "2026-09-07",
+          "close": 277.0
+        },
+        {
+          "date": "2026-09-08",
+          "close": 284.0
+        },
+        {
+          "date": "2026-09-09",
+          "close": 282.5
+        },
+        {
+          "date": "2026-09-10",
+          "close": 278.0
+        },
+        {
+          "date": "2026-09-11",
+          "close": 281.0
+        },
+        {
+          "date": "2026-09-14",
+          "close": 278.0
+        },
+        {
+          "date": "2026-09-15",
+          "close": 284.5
+        },
+        {
+          "date": "2026-09-16",
+          "close": 280.5
+        },
+        {
+          "date": "2026-09-17",
+          "close": 279.0
+        },
+        {
+          "date": "2026-09-18",
+          "close": 274.0
+        },
+        {
+          "date": "2026-09-21",
+          "close": 269.5
+        },
+        {
+          "date": "2026-09-22",
+          "close": 267.0
+        },
+        {
+          "date": "2026-09-23",
+          "close": 269.5
+        },
+        {
+          "date": "2026-09-24",
+          "close": 267.0
+        },
+        {
+          "date": "2026-09-25",
+          "close": 261.5
+        },
+        {
+          "date": "2026-09-28",
+          "close": 262.0
+        },
+        {
+          "date": "2026-09-29",
+          "close": 264.5
+        },
+        {
+          "date": "2026-09-30",
+          "close": 271.0
+        },
+        {
+          "date": "2026-10-01",
+          "close": 267.5
+        },
+        {
+          "date": "2026-10-02",
+          "close": 270.0
+        }
+      ]
+    },
+    {
+      "code": "2317",
+      "name": "鴻海",
+      "daily": {
+        "status": "OK",
+        "date": "2026-10-02",
+        "close": 147.5,
+        "change": 1.5,
+        "change_pct": 1.0273972602739725,
+        "previous_close": 146.0,
+        "amplitude_pct": 2.054794520547945,
+        "ma5": 148.3,
+        "ma20": 142.93,
+        "volume_shares": 32966000.0,
+        "volume_ratio": 1.885387474978553,
+        "freshness": "來源可取得的最近交易日；不以工作日推算休市",
+        "observations": 40,
+        "window_start": "2026-09-07"
+      },
+      "ma20_position": "above",
+      "relative": {
+        "status": "OK",
+        "date": "2026-10-02",
+        "benchmark": {
+          "close": 19835.41,
+          "change": -27.82,
+          "change_pct": -0.14005778516384293,
+          "source": "模擬資料（非 TWSE 回應）"
+        },
+        "relative_pp": 1.1674550454378154,
+        "inference": "強於同日大盤",
+        "basis": "同日完整日收盤；價量描述不預測未來漲跌"
+      },
+      "issues": [],
+      "sources": [],
+      "series": [
+        {
+          "date": "2026-09-07",
+          "close": 131.5
+        },
+        {
+          "date": "2026-09-08",
+          "close": 134.5
+        },
+        {
+          "date": "2026-09-09",
+          "close": 137.5
+        },
+        {
+          "date": "2026-09-10",
+          "close": 139.5
+        },
+        {
+          "date": "2026-09-11",
+          "close": 143.5
+        },
+        {
+          "date": "2026-09-14",
+          "close": 142.0
+        },
+        {
+          "date": "2026-09-15",
+          "close": 142.5
+        },
+        {
+          "date": "2026-09-16",
+          "close": 141.5
+        },
+        {
+          "date": "2026-09-17",
+          "close": 140.5
+        },
+        {
+          "date": "2026-09-18",
+          "close": 144.5
+        },
+        {
+          "date": "2026-09-21",
+          "close": 144.5
+        },
+        {
+          "date": "2026-09-22",
+          "close": 141.5
+        },
+        {
+          "date": "2026-09-23",
+          "close": 142.0
+        },
+        {
+          "date": "2026-09-24",
+          "close": 145.5
+        },
+        {
+          "date": "2026-09-25",
+          "close": 146.0
+        },
+        {
+          "date": "2026-09-28",
+          "close": 150.0
+        },
+        {
+          "date": "2026-09-29",
+          "close": 150.0
+        },
+        {
+          "date": "2026-09-30",
+          "close": 148.0
+        },
+        {
+          "date": "2026-10-01",
+          "close": 146.0
+        },
+        {
+          "date": "2026-10-02",
+          "close": 147.5
+        }
+      ]
+    },
+    {
+      "code": "2308",
+      "name": "台達電",
+      "daily": {
+        "status": "PARTIAL",
+        "date": "2026-10-02",
+        "close": 190.0,
+        "change": -2.5,
+        "change_pct": -1.2987012987012987,
+        "previous_close": 192.5,
+        "amplitude_pct": 1.2987012987012987,
+        "ma5": 194.4,
+        "ma20": null,
+        "volume_shares": 47164000.0,
+        "volume_ratio": 5.155098917914526,
+        "freshness": "來源可取得的最近交易日；不以工作日推算休市",
+        "observations": 12,
+        "window_start": "2026-09-17"
+      },
+      "ma20_position": null,
+      "relative": {
+        "status": "OK",
+        "date": "2026-10-02",
+        "benchmark": {
+          "close": 19835.41,
+          "change": -27.82,
+          "change_pct": -0.14005778516384293,
+          "source": "模擬資料（非 TWSE 回應）"
+        },
+        "relative_pp": -1.1586435135374558,
+        "inference": "弱於同日大盤",
+        "basis": "同日完整日收盤；價量描述不預測未來漲跌"
+      },
+      "issues": [
+        "MA20：資料不足或視窗缺值"
+      ],
+      "sources": [],
+      "series": [
+        {
+          "date": "2026-09-17",
+          "close": 196.0
+        },
+        {
+          "date": "2026-09-18",
+          "close": 191.5
+        },
+        {
+          "date": "2026-09-21",
+          "close": 195.5
+        },
+        {
+          "date": "2026-09-22",
+          "close": 200.0
+        },
+        {
+          "date": "2026-09-23",
+          "close": 195.0
+        },
+        {
+          "date": "2026-09-24",
+          "close": 195.0
+        },
+        {
+          "date": "2026-09-25",
+          "close": 197.0
+        },
+        {
+          "date": "2026-09-28",
+          "close": 200.5
+        },
+        {
+          "date": "2026-09-29",
+          "close": 196.0
+        },
+        {
+          "date": "2026-09-30",
+          "close": 193.0
+        },
+        {
+          "date": "2026-10-01",
+          "close": 192.5
+        },
+        {
+          "date": "2026-10-02",
+          "close": 190.0
+        }
+      ]
+    },
+    {
+      "code": "2882",
+      "name": "國泰金",
+      "daily": {
+        "status": "STALE",
+        "date": "2026-09-23",
+        "close": 58.5,
+        "change": -1.5,
+        "change_pct": -2.5,
+        "previous_close": 60.0,
+        "amplitude_pct": 3.3333333333333335,
+        "ma5": 59.0,
+        "ma20": 58.95,
+        "volume_shares": 9338000.0,
+        "volume_ratio": 0.27335265361084277,
+        "freshness": "落後超過 7 個日曆日，可能過期",
+        "observations": 40,
+        "window_start": "2026-08-27"
+      },
+      "ma20_position": "below_or_equal",
+      "relative": {
+        "status": "UNAVAILABLE",
+        "reason": "資料可能過期，不判讀當前相對強弱"
+      },
+      "issues": [],
+      "sources": [],
+      "series": [
+        {
+          "date": "2026-08-27",
+          "close": 57.5
+        },
+        {
+          "date": "2026-08-28",
+          "close": 58.5
+        },
+        {
+          "date": "2026-08-31",
+          "close": 57.5
+        },
+        {
+          "date": "2026-09-01",
+          "close": 58.5
+        },
+        {
+          "date": "2026-09-02",
+          "close": 57.5
+        },
+        {
+          "date": "2026-09-03",
+          "close": 59.0
+        },
+        {
+          "date": "2026-09-04",
+          "close": 59.5
+        },
+        {
+          "date": "2026-09-07",
+          "close": 59.0
+        },
+        {
+          "date": "2026-09-08",
+          "close": 60.5
+        },
+        {
+          "date": "2026-09-09",
+          "close": 61.5
+        },
+        {
+          "date": "2026-09-10",
+          "close": 60.0
+        },
+        {
+          "date": "2026-09-11",
+          "close": 60.0
+        },
+        {
+          "date": "2026-09-14",
+          "close": 59.0
+        },
+        {
+          "date": "2026-09-15",
+          "close": 57.5
+        },
+        {
+          "date": "2026-09-16",
+          "close": 58.5
+        },
+        {
+          "date": "2026-09-17",
+          "close": 57.5
+        },
+        {
+          "date": "2026-09-18",
+          "close": 59.0
+        },
+        {
+          "date": "2026-09-21",
+          "close": 60.0
+        },
+        {
+          "date": "2026-09-22",
+          "close": 60.0
+        },
+        {
+          "date": "2026-09-23",
+          "close": 58.5
+        }
+      ]
+    },
+    {
+      "code": "9999",
+      "name": null,
+      "daily": {
+        "status": "NO_DATA",
+        "date": null,
+        "close": null,
+        "change": null,
+        "change_pct": null,
+        "previous_close": null,
+        "amplitude_pct": null,
+        "ma5": null,
+        "ma20": null,
+        "volume_shares": null,
+        "volume_ratio": null,
+        "freshness": null,
+        "observations": null,
+        "window_start": null
+      },
+      "ma20_position": null,
+      "relative": {
+        "status": "UNAVAILABLE",
+        "reason": "部分股票缺少完整日收盤或漲跌幅"
+      },
+      "issues": [
+        "沒有可用日行情"
+      ],
+      "sources": [],
+      "series": []
+    }
+  ],
+  "formulas": {
+    "change_pct": "(收盤或成交價 / 前收盤 - 1) × 100；不比價時不算",
+    "amplitude_pct": "(最高 - 最低) / 前收盤 × 100",
+    "ma5_ma20": "最近 5 / 20 筆有效交易日收盤算術平均；視窗有缺值則不計算",
+    "volume_ratio": "本日官方成交股數 / 前一筆官方日成交股數；僅完整日資料",
+    "relative_pp": "同一交易日個股漲跌幅 - 加權指數漲跌幅（百分點）"
+  },
+  "limitations": [
+    "本頁數字為亂數合成的模擬資料，不是任何一天的真實行情。",
+    "價格未還原權息；公司行動可能使跨日報酬與均線失真。",
+    "只描述已取得價量，不保證漲跌；不提供買賣建議。",
+    "官方資料缺漏時顯示不可用，不以 0、買賣報價或猜測值補齊。"
+  ],
+  "errors": []
+}
