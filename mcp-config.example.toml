@@ -1,0 +1,4 @@
+# Optional host integration only. The standalone CLI already connects directly.
+# This file is not automatically written into global Codex configuration.
+[mcp_servers.twse]
+url = "https://twse-mcp.taux.io/mcp"

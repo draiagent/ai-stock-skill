@@ -1,0 +1,6 @@
+{
+  "source_archive": "tw-stock-agent(2).zip",
+  "sha256": "4f95e4e4c32e0c27aed7d9e2dc06e2754a121f270c2457cbd378ec906a4db03d",
+  "audit": "offline recomputation of supplied evidence; not fresh API verification",
+  "raw_response_count": 31
+}

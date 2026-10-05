@@ -1,0 +1,25 @@
+SIMULATED FIXTURES / NO REAL API CALLS
+test_different_dates_no_comparison (test_agent.SafetyTests.test_different_dates_no_comparison) ... ok
+test_duplicate_dates_rejected (test_agent.SafetyTests.test_duplicate_dates_rejected) ... ok
+test_future_quote_rejected (test_agent.SafetyTests.test_future_quote_rejected) ... ok
+test_holiday_preserves_actual_date (test_agent.SafetyTests.test_holiday_preserves_actual_date) ... ok
+test_http_failure_recorded_not_fabricated (test_agent.SafetyTests.test_http_failure_recorded_not_fabricated) ... ok
+test_independent_known_arithmetic (test_agent.SafetyTests.test_independent_known_arithmetic) ... ok
+test_index_different_day_no_relative (test_agent.SafetyTests.test_index_different_day_no_relative) ... ok
+test_insufficient_history (test_agent.SafetyTests.test_insufficient_history) ... ok
+test_missing_history_no_skip_over (test_agent.SafetyTests.test_missing_history_no_skip_over) ... ok
+test_missing_history_schema_rejected (test_agent.SafetyTests.test_missing_history_schema_rejected) ... ok
+test_missing_last_never_substitutes_bid (test_agent.SafetyTests.test_missing_last_never_substitutes_bid) ... ok
+test_missing_timestamp_rejected (test_agent.SafetyTests.test_missing_timestamp_rejected) ... ok
+test_nan_not_accepted (test_agent.SafetyTests.test_nan_not_accepted) ... ok
+test_ohlc_rejected (test_agent.SafetyTests.test_ohlc_rejected) ... ok
+test_parser_and_conflict (test_agent.SafetyTests.test_parser_and_conflict) ... ok
+test_stale_no_current_strength (test_agent.SafetyTests.test_stale_no_current_strength) ... ok
+test_whole_pipeline_outage (test_agent.SafetyTests.test_whole_pipeline_outage) ... ok
+test_wrong_code_empty_code_rejected (test_agent.SafetyTests.test_wrong_code_empty_code_rejected) ... ok
+test_zero_denominator (test_agent.SafetyTests.test_zero_denominator) ... ok
+
+----------------------------------------------------------------------
+Ran 19 tests in 0.151s
+
+OK

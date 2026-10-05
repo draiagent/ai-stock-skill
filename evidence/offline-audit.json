@@ -1,0 +1,26 @@
+[
+  {
+    "artifact": "evidence/live-single",
+    "status": "PASS",
+    "raw_files": 7,
+    "query": "查台積電 2330"
+  },
+  {
+    "artifact": "evidence/live-compare",
+    "status": "PASS",
+    "raw_files": 10,
+    "query": "比較台積電 2330、聯發科 2454"
+  },
+  {
+    "artifact": "evidence/live-invalid",
+    "status": "PASS",
+    "raw_files": 7,
+    "query": "查 9999"
+  },
+  {
+    "artifact": "evidence/live-holiday",
+    "status": "PASS",
+    "raw_files": 7,
+    "query": "查台積電 2330"
+  }
+]
